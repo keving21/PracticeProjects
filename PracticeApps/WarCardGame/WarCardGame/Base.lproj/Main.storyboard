@@ -39,6 +39,9 @@
                                         <rect key="frame" x="94" y="200" width="82" height="31"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <state key="normal" image="dealbutton"/>
+                                        <connections>
+                                            <action selector="DealTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PYm-CR-odc"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -94,6 +97,12 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="LeftScoreLabel" destination="1tc-A9-tdb" id="gnC-2R-31S"/>
+                        <outlet property="RightScoreLabel" destination="wOZ-cF-WAQ" id="YEd-Ra-eBT"/>
+                        <outlet property="leftImageView" destination="WBU-nv-keN" id="GGP-eF-fec"/>
+                        <outlet property="rightImageView" destination="Y1D-6A-cMX" id="j9f-Bu-3Qd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
